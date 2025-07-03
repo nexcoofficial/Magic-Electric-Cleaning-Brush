@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Magic Electric Cleaning Brush - Premium Landing Page</title>
-  <meta name="description" content="🌟 Membersihkan segala jenis noda 5x lebih cepat! Magic Electric Cleaning Brush: teknologi elektrik otomatis, praktis, nyaman, tanpa capek. Order sekarang!">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Magic Electric Cleaning Brush | Sikat Otomatis Premium</title>
+  <meta name="description" content="Sikat Elektrik Premium — Bersih 5x Lebih Cepat & Praktis! Dapatkan Magic Electric Cleaning Brush dengan promo spesial hari ini.">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;500;400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -41,25 +39,25 @@
       animation: fadeInDown 1s cubic-bezier(.77,0,.18,1) 0.1s both;
     }
     .hero img {
-      width: 260px;
-      max-width: 90vw;
+      width: 270px;
+      max-width: 92vw;
       border-radius: 24px;
-      box-shadow: 0 4px 30px rgba(0,0,0,.06);
+      box-shadow: 0 4px 30px rgba(0,0,0,.07);
       margin-bottom: 1.3rem;
       animation: floaty 2.6s ease-in-out infinite alternate;
     }
     @keyframes floaty {
       0% { transform: translateY(0);}
-      100% { transform: translateY(-12px);}
+      100% { transform: translateY(-16px);}
     }
     @keyframes fadeInDown {
       0%{opacity:0;transform:translateY(-30px);}
       100%{opacity:1;transform:translateY(0);}
     }
     .tagline {
-      font-size: 1.25rem;
+      font-size: 1.28rem;
       font-weight: 700;
-      background: rgba(255,255,255,0.97);
+      background: rgba(255,255,255,0.98);
       color: var(--primary);
       border-radius: 12px;
       padding: 0.8rem 1.3rem;
@@ -111,6 +109,7 @@
       text-align: center;
       font-size: 1.06em;
     }
+    /* Gallery */
     .gallery-section {
       display: flex;
       flex-direction: row;
@@ -119,16 +118,19 @@
       padding: 1.1rem 0.3rem 0.7rem 0.3rem;
       margin: 1.4rem 0 0.4rem 0;
       scroll-snap-type: x mandatory;
+      background: #f9fafd;
     }
     .gallery-section img, .gallery-section video {
       border-radius: 14px;
-      max-width: 220px;
+      max-width: 210px;
       min-width: 130px;
       object-fit: cover;
       box-shadow: 0 2px 15px rgba(10,10,50,0.09);
       scroll-snap-align: start;
       background: #fff;
+      border: 2px solid #f6f6f6;
     }
+    .gallery-section::-webkit-scrollbar { display: none; }
     .section {
       margin: 1.8rem auto 0 auto;
       max-width: 600px;
@@ -157,7 +159,7 @@
       display: flex;
       gap: 0.9rem;
       align-items: flex-start;
-      font-size: 1.07rem;
+      font-size: 1.09rem;
       background: linear-gradient(90deg, #e9f9f9 70%, #fff 120%);
       border-radius: 13px;
       padding: 0.8rem 1rem;
@@ -297,6 +299,7 @@
       .hero { padding: 1.5rem 0.5rem 0.8rem 0.5rem;}
       .section { padding: 1rem 0.4rem;}
       .sticky-bar { font-size: 0.97rem;}
+      .gallery-section img, .gallery-section video { max-width: 130px;}
     }
     @media (max-width:400px) {
       .hero img { width: 98vw;}
@@ -304,7 +307,6 @@
       .sticky-bar { padding: 0.6rem 0.5rem;}
       .section { padding: 0.6rem 0.1rem;}
     }
-    /* Animated counter styles */
     .counter {
       color: var(--success);
       font-weight: 700;
@@ -332,13 +334,14 @@
     <button class="cta-main" onclick="scrollToOrder()">Pesan Sekarang</button>
   </section>
   <div class="gallery-section">
-    <img src="https://cdn.cloudfastcdn.com/image/9207baf827a1c7032df501d8a70b0c05888c23ed-600.png" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/c645971c7ae917c4d94be9637068b887fa9393af-600.png" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/afad009503bfa03907ce3f11d924533ffab44c00-600.png" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/2d54d7e8c78c2017791b9e080d4cf242a1192198-600.png" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/c8292a02942824431030b93547e06da99db4a59b.png" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/f5989ea465ccbba05d729c48879ac40bd4f3fe36.gif" alt="">
-    <img src="https://cdn.cloudfastcdn.com/image/fd7c4ebf25e337699cf799dbb92992cbb7309cc7.gif" alt="">
+    <img src="https://cdn.cloudfastcdn.com/image/3dc6957b6ab47a30a405f8624cf04d8beb432854-600.png" alt="Gambar 1 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/9207baf827a1c7032df501d8a70b0c05888c23ed-600.png" alt="Gambar 2 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/c645971c7ae917c4d94be9637068b887fa9393af-600.png" alt="Gambar 3 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/afad009503bfa03907ce3f11d924533ffab44c00-600.png" alt="Gambar 4 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/2d54d7e8c78c2017791b9e080d4cf242a1192198-600.png" alt="Gambar 5 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/c8292a02942824431030b93547e06da99db4a59b.png" alt="Gambar 6 Magic Electric Cleaning Brush">
+    <img src="https://cdn.cloudfastcdn.com/image/f5989ea465ccbba05d729c48879ac40bd4f3fe36.gif" alt="GIF Demo 1">
+    <img src="https://cdn.cloudfastcdn.com/image/fd7c4ebf25e337699cf799dbb92992cbb7309cc7.gif" alt="GIF Demo 2">
   </div>
 
   <section class="section">
